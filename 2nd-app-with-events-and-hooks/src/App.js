@@ -1,25 +1,16 @@
 
-
 import './App.css';
-
 import Navbar from './components/Navbar';
-import TextArea from './components/TextArea';
-import Footer from './components/Footer';
+import Textforms from './components/Textforms';
+
+
 
 function App() {
   return (
     <>
+    <Navbar title = "TextUtils"/>
+    <Textforms heading = 'Enter Text Here '/>
 
-      <Navbar heading="TextUtils" />
-
-      <div className='container'>
-        
-        <TextArea heading="Welcome to TextUtls" />
-
-      </div>
-
-
-    <Footer />
     </>
 
   );
