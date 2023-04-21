@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from './components/Navbar';
 import TextArea from './components/TextArea';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </div>
 
 
+    <Footer />
     </>
 
   );
