@@ -15,9 +15,7 @@ export default function TextArea(props) {
             <div className='p-5 shadow my-5 rounded-3'>
                 <h1 className='display-5 text-center '>{props.heading}</h1>
 
-                <label htmlFor="textarea">
-                    Enter Text Below
-                </label>
+                
 
                 <textarea cols="" rows="8" className='form-control' placeholder={text}></textarea>
                 <div className='my-3'>
